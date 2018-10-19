@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部メモリー</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">全て</string>
+    <string name="format_filter_document">ドキュメント</string>
+    <string name="format_filter_picture">画像</string>
+    <string name="format_filter_music">音楽</string>
+    <string name="format_filter_video">動画</string>
+    <string name="format_filter_wb">ホワイトボード</string>
+    <string name="audio">音楽</string>
+    <string name="video">動画</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">検索</string>
+    <string name="search_result">検索結果</string>
+    <string name="cancel">キャンセル</string>
+    <string name="copy">コピー</string>
+    <string name="paste">貼り付け</string>
+    <string name="delete">削除</string>
+    <string name="success">" 削除しました "</string>
+    <string name="copy_to">コピー先</string>
+    <string name="operation">ファイル操作</string>
+    <string name="select_all">全て</string>    
+    <string name="folder_empty">ファイルがありません</string>
+   <string name="all">全て</string>
+    <string name="message_exit">もう一度戻るを押して退出してください。</string>
+    <string name="message_no_permission">許可されていません。</string>
+    <string name="message_paste">貼り付けに成功しました。</string>
+    <string name="message_paste2">ファイル貼り付け</string>
+    <string name="message_paste3">" 同じファイルがすでにあります。上書きしますか？"</string>
+    <string name="message_paste4">先にファイルをコピーする</string>
+    <string name="message_no_file_selected">ファイルが選択されていません。</string>
+    <string name="message_failure">失敗しました。</string>
+    <string name="message_confirm">本当に削除しますか？</string>
+    <string name="message_scan"> スキャン中.. </string>
+    <string name="message_no_storage"> 外部メモリーが接続されていません. </string>
+    <string name="no_usb">なし</string>
+    <string name="paste_loading">貼り付け中です。お待ちください。</string>
+    <string name="not_paste">現在のフォルダーには貼り付けできません。</string>
+    <string name="copy_file">-コピー</string>
+    <string name="space_not_enough">残りの容量が十分にありません。</string>
+    <string name="system_files">システムファイル</string>
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/layout_shadow_width"
+        android:layout_height="@dimen/layout_shadow_height"
+        android:background="@drawable/filebroawser_background"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_shadow_marginTop">
+
+        <com.hht.filebrowser.view.FTopView
+            android:id="@+id/layout_top_view"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="@dimen/top_view_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/top_view_marginTop"
+            android:background="@drawable/top_background" >
+        </com.hht.filebrowser.view.FTopView>
+
+        <View
+            android:id="@+id/top_divider"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="@dimen/divider_height"
+            android:layout_below="@id/layout_top_view"
+            android:layout_centerHorizontal="true"
+            android:background="@color/color_divider" >
+        </View>
+
+        <LinearLayout
+            android:id="@+id/storage_device_layout"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="@dimen/storage_layout_height"
+            android:layout_below="@id/top_divider"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/fileStorageView"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/storage_layout_height"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/edit_layout_bg_color"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/et_find"
+                    android:layout_width="@dimen/edit_text_width"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_toLeftOf="@+id/btn_find"
+                    android:background="@drawable/search_edit_selector"
+                    android:cursorVisible="false"
+                    android:paddingLeft="@dimen/edit_text_marginLeft"
+                    android:hint="@string/please_input_keyword"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:imeOptions="actionSearch"
+                    android:textColor="@color/edit_text_color"
+                    android:textColorHint="@color/edit_text_hint_color"
+                    android:textSize="@dimen/edit_text_size" />
+
+                <Button
+                    android:id="@+id/btn_find"
+                    android:layout_width="@dimen/btn_find_width"
+                    android:layout_height="@dimen/btn_find_width"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/btn_find_marginRight"
+                    android:background="@drawable/btn_search" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/top_divider2"
+            android:layout_width="832dp"
+            android:layout_height="0.6dp"
+            android:layout_below="@id/storage_device_layout"
+            android:layout_centerHorizontal="true"
+            android:background="#dcdcdc" />
+
+        <LinearLayout
+            android:id="@+id/middle_layout"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="@dimen/left_height"
+            android:layout_below="@id/top_divider2"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <com.hht.filebrowser.view.FormatFilter
+                android:id="@+id/format_filter_bar_second"
+                android:layout_width="@dimen/left_width"
+                android:layout_height="@dimen/left_height"></com.hht.filebrowser.view.FormatFilter>
+
+            <View
+                android:layout_width="0.6dp"
+                android:layout_height="match_parent"
+                android:background="#dcdcdc" />
+
+            <LinearLayout
+                android:id="@+id/right_layout"
+                android:layout_width="@dimen/layout_files_width"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <com.hht.filebrowser.view.FilePathView
+                    android:id="@+id/filePath"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:background="#f5f5f5" >
+                </com.hht.filebrowser.view.FilePathView>
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="#dcdcdc" />
+
+                <LinearLayout
+                    android:id="@+id/mainLayout"
+                    android:layout_width="@dimen/layout_files_width"
+                    android:layout_height="322dp"
+                    android:orientation="vertical" >
+
+                    <GridView
+                        android:id="@+id/gv_files"
+                        android:layout_width="match_parent"
+                        android:layout_height="322dp"
+                        android:layout_marginLeft="@dimen/margin_33px"
+                        android:layout_marginRight="11dp"
+                        android:background="@color/translate"
+                        android:cacheColorHint="@color/translate"
+                        android:horizontalSpacing="@dimen/margin_20px"
+                        android:listSelector="@drawable/listview_disable_seletcor"
+                        android:numColumns="5"
+                        android:scrollbarThumbVertical="@drawable/scroller"
+                        android:verticalSpacing="@dimen/margin_30px"
+                        android:visibility="gone" />
+
+                    <ListView
+                        android:id="@+id/lv_files"
+                        android:layout_width="match_parent"
+                        android:layout_height="322dp"
+                        android:background="@color/translate"
+                        android:divider="@color/translate"
+                        android:fadingEdge="none"
+                        android:listSelector="@drawable/listview_disable_seletcor"
+                        android:scrollbarThumbVertical="@drawable/scroller"
+                        android:scrollingCache="false" />
+
+                    <TextView
+                        android:id="@+id/tv_folder_empty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/folder_empty"
+                        android:textColor="@color/file_date_color"
+                        android:textSize="@dimen/size_22px"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/searchLayout"
+                    android:layout_width="@dimen/layout_files_width"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <com.hht.filebrowser.view.SearchBar
+                        android:id="@+id/search_tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" >
+                    </com.hht.filebrowser.view.SearchBar>
+
+                    <ListView
+                        android:id="@+id/searchResultList"
+                        android:layout_width="735dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="-10dp"
+                        android:background="@color/translate"
+                        android:cacheColorHint="@color/translate"
+                        android:divider="@color/translate"
+                        android:fadingEdge="none"
+                        android:listSelector="@drawable/listview_disable_seletcor"
+                        android:scrollbarThumbVertical="@drawable/scroller" >
+                    </ListView>
+
+                    <TextView
+                        android:id="@+id/tv_folder_empty2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/folder_empty"
+                        android:textColor="@color/file_date_color"
+                        android:textSize="@dimen/size_22px"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/bottom_divider"
+            android:layout_width="832dp"
+            android:layout_height="0.6dp"
+            android:layout_below="@id/middle_layout"
+            android:layout_centerHorizontal="true"
+            android:background="#dcdcdc" />
+
+        <com.hht.filebrowser.view.FBottomView
+            android:id="@+id/bottom_view"
+            android:layout_width="832dp"
+            android:layout_height="37.3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13.3dp"
+            android:background="@drawable/bottom_background" >
+        </com.hht.filebrowser.view.FBottomView>
+    </RelativeLayout>
+
+</LinearLayout>

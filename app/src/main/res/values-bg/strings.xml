@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Всички</string>
+    <string name="format_filter_document">Документи</string>
+    <string name="format_filter_picture">Картинки</string>
+    <string name="format_filter_music">Аудио файлове</string>
+    <string name="format_filter_video">Видео файлове</string>
+    <string name="format_filter_wb">Бяла дъска</string>
+    <string name="audio">Аудио файлове音频</string>
+    <string name="video">Видео файлове</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Търсене</string>
+    <string name="search_result">Резултати от търсенето</string>
+    <string name="cancel">Откажи</string>
+    <string name="copy">Копирай</string>
+    <string name="paste">Постави</string>
+    <string name="delete">Изтрий</string>
+    <string name="success">" Изтриването е успешно"</string>
+    <string name="copy_to">Копирай в</string>
+    <string name="operation">Работа с документа</string>
+    <string name="select_all">Изберете всички</string>
+    <string name="folder_empty">Несъществуващ файл</string>
+    <string name="all">Всички</string>
+    <string name="message_exit">Натиснете отново за да излезете</string>
+    <string name="message_no_permission">Недостатъчни права</string>
+    <string name="message_paste">Копирането е успешно</string>
+    <string name="message_paste2">Копиране на файлове</string>
+    <string name="message_paste3">Файл със същото име вече съществува, искате ли да го замените?</string>
+    <string name="message_paste4">Моля, копирайте файловете предварително</string>
+    <string name="message_no_file_selected">Не е избран файл, невъзможно е завършването на операцията</string>
+    <string name="message_failure">Грешка</string>
+    <string name="message_confirm">Потвърждавате ли изтриването?？</string>
+    <string name="message_scan">Сканиране ...</string>
+    <string name="message_no_storage">Не е открито устройство за съхранение</string>
+    <string name="no_usb">Няма</string>
+    <string name="paste_loading">Копира се ... Моля, изчакайте ...</string>
+    <string name="not_paste">Невъзможно е копирането на файла в текущата папка</string>
+    <string name="copy_file">副本</string>
+    <string name="space_not_enough">Недостатъчно свободно място</string>
+    <string name="system_files">Системни файлове</string>
+</resources>

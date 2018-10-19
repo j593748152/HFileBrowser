@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+
+    <LinearLayout
+        android:id="@+id/search_top_btn_tools"
+        android:layout_width="@dimen/search_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" >
+
+        <com.hht.widget.CusImageButton
+            android:id="@+id/search_top_btn_all"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            custom:title="@string/all"
+            custom:textSize="@dimen/size_22px" />
+
+        <com.hht.widget.CusImageButton
+            android:id="@+id/search_top_btn_ppt"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            custom:title="@string/ppt"
+            custom:textSize="@dimen/size_22px" />
+
+        <com.hht.widget.CusImageButton
+            android:id="@+id/search_top_btn_pdf"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            custom:title="@string/pdf"
+            custom:textSize="@dimen/size_22px" />
+
+        <com.hht.widget.CusImageButton
+            android:id="@+id/search_top_btn_doc"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            custom:title="@string/word"
+            custom:textSize="@dimen/size_22px" />
+
+        <com.hht.widget.CusImageButton
+            android:id="@+id/search_top_btn_xls"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            custom:title="@string/excel"
+            custom:textSize="@dimen/size_22px" />
+        <com.hht.widget.CusImageButton
+            android:id="@+id/search_top_btn_pic"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            custom:title="@string/format_filter_picture"
+            custom:textSize="@dimen/size_22px" />
+
+        <com.hht.widget.CusImageButton
+            android:id="@+id/search_top_btn_music"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            custom:title="@string/audio"
+            custom:textSize="@dimen/size_22px" />
+
+        <com.hht.widget.CusImageButton
+            android:id="@+id/search_top_btn_video"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            custom:title="@string/video"
+            custom:textSize="@dimen/size_22px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/search_top_btn_tools"
+        android:layout_marginTop="@dimen/margin_15px"
+        android:tag="skin:search_input_border:background" >
+    </LinearLayout>
+
+</RelativeLayout>

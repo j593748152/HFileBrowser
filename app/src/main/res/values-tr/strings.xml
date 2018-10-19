@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Klasör</string>
+    <string name="format_filter_all">Hepsi</string>
+    <string name="format_filter_document">Belgeler</string>
+    <string name="format_filter_picture">Resimler</string>
+    <string name="format_filter_music">Sesler/Videolar</string>
+    <string name="format_filter_video">Videolar</string>
+    <string name="format_filter_wb">Beyaz tahta</string>
+    <string name="audio">Sesler</string>
+    <string name="video">Videolar</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Ara</string>
+    <string name="search_result">Arama sonuçları</string>
+    <string name="delete">Sil</string>
+    <string name="success">Başarıyla silindi</string>
+    <string name="copy_to">Kopyala</string>
+    <string name="operation">Belge işleme</string>
+    <string name="folder_empty">Mevcut dosya yok</string>
+    <string name="all">Hepsi</string>
+    <string name="message_exit">Çıkmak için tekrar basın</string>
+    <string name="message_no_permission">Yetersiz yetki</string>
+    <string name="message_paste">Başarıyla yapıştırıldı</string>
+    <string name="message_paste2">Dosyaları yapıştır</string>
+    <string name="message_paste3">"Zaten aynı ada sahip 1 dosya var; değiştirmek istiyor musunuz?"</string>
+    <string name="message_paste_plural">"Zaten aynı ada sahip %d dosya var; değiştirmek istiyor musunuz?"</string>
+    <string name="message_paste4">Lütfen önce dosyaları kopyalayın</string>
+    <string name="message_no_file_selected">Dosya seçilmedi, işlem sonlandırılamadı</string>
+    <string name="message_failure">Başarısız</string>
+    <string name="message_scan">Tarıyor…</string>
+    <string name="message_no_storage">Depolama aygıtı bulunamadı.</string>
+    <string name="no_usb">Yok</string>
+    <string name="paste_loading">Yapıştırılıyor… lütfen bekleyin…</string>
+    <string name="not_paste">Dosyalar mevcut klasöre kopyalanamadı</string>
+    <string name="copy_file">Kopya Oluştur</string>
+    <string name="space_not_enough">Yetersiz geriye kalan alan</string>
+    <string name="system_files">Sistem dosyaları</string>
+    <!-- 2017added -->
+    <string name="delete_file_selected">Seçilen dosyaların silinmesini onaylıyor musunuz?</string>
+    <string name="list">Listele</string>
+    <string name="thumbnails">ikon</string>
+    <string name="please_input_keyword">Lütfen anahtar kelimeyi girin…</string>
+    
+    <string name="user_difined_bac_selected">Bir resim seçin</string>
+    <!--media-->
+
+    <!--image loader-->
+    <string name="image_loader_rotate">Döndür</string>
+    <string name="image_loader_exit">Çık</string>
+
+</resources>

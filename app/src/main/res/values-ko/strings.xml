@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">외부 기억장치</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">전체</string>
+    <string name="format_filter_document">문서</string>
+    <string name="format_filter_picture">이미지</string>
+    <string name="format_filter_music">오디오</string>
+    <string name="format_filter_video">비디오</string>
+    <string name="format_filter_wb">보드</string>
+    <string name="audio">오디오</string>
+    <string name="video">비디오</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">검색  </string>
+    <string name="search_result">검색 결과</string>
+    <string name="cancel">취소</string>
+    <string name="copy">복제</string>
+    <string name="paste">붙여넣기</string>
+    <string name="delete">삭제</string>
+    <string name="success">" 삭제 성공 "</string>
+    <string name="copy_to">다른 이름으로 저장하기</string>
+    <string name="operation">문서 작업</string>
+    <string name="select_all">전체 선택</string>    
+    <string name="folder_empty">해당 파일이 존재하지 않습니다</string>
+   <string name="all">전체</string>
+    <string name="message_exit">다시 눌려 종료하십시오</string>
+    <string name="message_no_permission">권한이 없습니다</string>
+    <string name="message_paste">붙여넣기 성공</string>
+    <string name="message_paste2">문서 붙여넣기</string>
+    <string name="message_paste3">" 같은 이름의 파일이 존재합니다. 덮어쓰시겠습니까?"</string>
+    <string name="message_paste4">파일 복사를 먼저 진행하여 주십시오</string>
+    <string name="message_no_file_selected">선택 파일 없음, 작업을 완료할 수 없습니다</string>
+    <string name="message_failure">실패</string>
+    <string name="message_confirm">삭제하시겠습니까?</string>
+    <string name="message_scan"> 스캐닝 중… </string>
+    <string name="message_no_storage"> 저장 장치를 찾을 수가 없습니다 </string>
+    <string name="no_usb">없음</string>
+    <string name="paste_loading">붙여넣기 진행 중, 잠시 기다려주십시오…</string>
+    <string name="not_paste">해당 폴더에 파일을 복사할 수 없습니다</string>
+    <string name="copy_file">복사본</string>
+    <string name="space_not_enough">저장 공간이 부족합니다.</string>
+    <string name="system_files">시스템 파일</string>
+</resources>

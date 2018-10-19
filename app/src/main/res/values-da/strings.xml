@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Alle</string>
+    <string name="format_filter_document">Dokumenter</string>
+    <string name="format_filter_picture">Billeder</string>
+    <string name="format_filter_music">Lyde</string>
+    <string name="format_filter_video">Videoer</string>
+    <string name="format_filter_wb">Whiteboard</string>
+    <string name="audio">Lyde</string>
+    <string name="video">Videoer</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Søg</string>
+    <string name="search_result">Søgeresultater</string>
+    <string name="cancel">Annuller</string>
+    <string name="copy">Kopier</string>
+    <string name="paste">Indsæt</string>
+    <string name="delete">Slet</string>
+    <string name="success">Sletning udført</string>
+    <string name="copy_to">Kopier til</string>
+    <string name="operation">Dokumenthandling</string>
+    <string name="select_all">Vælg alle</string>
+    <string name="folder_empty">Ingen eksisterende fil</string>
+   <string name="all">Alle</string>
+    <string name="message_exit">Tryk igen for at forlade</string>
+    <string name="message_no_permission">Utilstrækkelige rettigheder</string>
+    <string name="message_paste">Indsæt lykkedes</string>
+    <string name="message_paste2">Indsæt filer</string>
+    <string name="message_paste3">Der findes allerede en fil med samme navn, vil du erstatte den?</string>
+    <string name="message_paste4">Kopier venligst filer på forhånd</string>
+    <string name="message_no_file_selected">Ingen fil er valgt, kan ikke afslutte handling</string>
+    <string name="message_failure">Mislykkedes</string>
+    <string name="message_confirm">Bekræft sletning?</string>
+    <string name="message_scan">Scanner...</string>
+    <string name="message_no_storage">Lagerenhed ikke fundet</string>
+    <string name="no_usb">Ingen</string>
+    <string name="paste_loading">Indsætter...vent venligst...</string>
+    <string name="not_paste">Kan ikke kopiere filer i den aktuelle mappe</string>
+    <string name="copy_file">Duplikere</string>
+    <string name="space_not_enough">Utilstrækkelig plads</string>
+    <string name="system_files">Systemfiler</string>
+</resources>

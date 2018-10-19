@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/lyj/workplace/Project/HFileBrowser/app/libs/skin.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="05e2b740ee910ee25aa54a13f71dd3459ccc6511">
+        <dex dex="/home/lyj/workplace/Project/HFileBrowser/app/build/intermediates/pre-dexed/release/skin_03950ab81ef9238f258ff0cdcd73fd7c08b80ad7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/lyj/workplace/Project/HFileBrowser/app/libs/HHardware.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="047147565f40384718e439910aef52f9847796e8">
+        <dex dex="/home/lyj/workplace/Project/HFileBrowser/app/build/intermediates/pre-dexed/release/HHardware_d5c31318a30129bd78c83bfe253652d3bd4c0544.jar" />
+    </item>
+
+</items>

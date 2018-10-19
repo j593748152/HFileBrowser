@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <Button
+        android:id="@+id/btn_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_27px"
+        android:tag="skin:translate:background|skin:top_text_color:textColor|skin:divider:drawable_right"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:textSize="@dimen/size_14px" />
+    <HorizontalScrollView
+        android:id="@+id/filePathScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_path"
+        android:gravity="center_vertical"
+        android:scrollbarThumbHorizontal="@drawable/scroller_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout_path_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.hht.filebrowser.imageload.CustomImageView
+        android:id="@+id/gridview_imageview" 
+        android:layout_width="181.4dp"
+        android:layout_height="102dp"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        android:src="@drawable/default_preview_pic"
+        android:tag="skin:default_preview_pic:src"/>
+    <ImageView
+        android:id="@+id/gridview_imageview_selected_bac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/gridview_imageview"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="95dp" />
+</RelativeLayout>

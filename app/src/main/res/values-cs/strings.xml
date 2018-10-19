@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Vše</string>
+    <string name="format_filter_document">Dokumenty</string>
+    <string name="format_filter_picture">Obrázky</string>
+    <string name="format_filter_music">Audio</string>
+    <string name="format_filter_video">Video</string>
+    <string name="format_filter_wb">Tabule</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Hledat</string>
+    <string name="search_result">Výsledky hledání</string>
+    <string name="cancel">Ukončit</string>
+    <string name="copy">Kopírovat</string>
+    <string name="paste">Vložit</string>
+    <string name="delete">Smazat</string>
+    <string name="success">Úspěšně smazáno</string>
+    <string name="copy_to">Kopírovat do</string>
+    <string name="operation">Akce dokumentu</string>
+    <string name="select_all">Vybrat vše</string>
+    <string name="folder_empty">Soubor neexistuje</string>
+   <string name="all">Vše</string>
+    <string name="message_exit">Stiskněte znovu k ukončení</string>
+    <string name="message_no_permission">Nedostatečné oprávnění</string>
+    <string name="message_paste">Úspěšně vloženo</string>
+    <string name="message_paste2">Vložit soubory</string>
+    <string name="message_paste3">Soubor se zadaným názvem již existuje, chcete jej přepsat?</string>
+    <string name="message_paste4">Prosím kopírujte soubory</string>
+    <string name="message_no_file_selected">Nebyly vybrány žádné soubory, operace nemůže být dokončena</string>
+    <string name="message_failure">Chyba</string>
+    <string name="message_confirm">Potvrdit smazání?</string>
+    <string name="message_scan">Probíhá sken…</string>
+    <string name="message_no_storage">Úložiště nebylo nalezeno</string>
+    <string name="no_usb">Žádné</string>
+    <string name="paste_loading">Vkládání… prosím počkejte…</string>
+    <string name="not_paste">Není možné kopírovat data do vybraného souboru</string>
+    <string name="copy_file">Duplikovat</string>
+    <string name="space_not_enough">Nedostatek zbývajícího místa</string>
+    <string name="system_files">Systémové soubory</string>
+</resources>

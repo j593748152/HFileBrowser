@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/format_filter_bg" >
+
+    <LinearLayout
+        android:id="@+id/format_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:tag="skin:translate:background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <!-- 全部 -->
+        <com.hht.widget.CusImageButton
+            android:id="@+id/format_filter_all"
+            style="@style/FileFilterButtonStyle"
+            custom:title="@string/format_filter_all"
+            custom:image="@drawable/icon_all_files_selector"
+            />
+
+        <!-- 白板 -->
+        <com.hht.widget.CusImageButton
+            android:id="@+id/format_filter_wb"
+            style="@style/FileFilterButtonStyle"
+            custom:title="@string/format_filter_wb"
+            custom:image="@drawable/icon_board_selector"
+            />
+
+        <!-- 文档 -->
+        <com.hht.widget.CusImageButton
+            android:id="@+id/format_filter_document"
+            style="@style/FileFilterButtonStyle"
+            custom:title="@string/format_filter_document"
+            custom:image="@drawable/icon_text_selector"
+            />
+
+        <!-- 图片 -->
+        <com.hht.widget.CusImageButton
+            android:id="@+id/format_filter_picture"
+            style="@style/FileFilterButtonStyle"
+            custom:title="@string/format_filter_picture"
+            custom:image="@drawable/icon_pic_selector"
+            />
+
+        <!-- 音频 -->
+        <com.hht.widget.CusImageButton
+            android:id="@+id/format_filter_media"
+            style="@style/FileFilterButtonStyle"
+            custom:title="@string/format_filter_music"
+            custom:image="@drawable/icon_music_selector"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/left_mask"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Viss</string>
+    <string name="format_filter_document">Dokumenti</string>
+    <string name="format_filter_picture">Attēli</string>
+    <string name="format_filter_music">Audio</string>
+    <string name="format_filter_video">Video</string>
+    <string name="format_filter_wb">Tāfele</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Meklēšana</string>
+    <string name="search_result">Meklēšanas rezultāti</string>
+    <string name="cancel">Atsaukt</string>
+    <string name="copy">Atsaukt</string>
+    <string name="paste">Ielīmēt</string>
+    <string name="delete">Izdzēst</string>
+    <string name="success">" Veiksmīgi izdzēsts "</string>
+    <string name="copy_to">Kopēt uz</string>
+    <string name="operation">Dokumenta darbība</string>
+    <string name="select_all">Iezīmēt visu</string>
+    <string name="folder_empty">Nav šāda faila</string>
+    <string name="all">Viss</string>
+    <string name="message_exit">Nospiediet vēlreiz, lai izietu</string>
+    <string name="message_no_permission">Nepietiekama autorizācija</string>
+    <string name="message_paste">Neveiksmīga ielīmēšana</string>
+    <string name="message_paste2">Ielīmēt failus</string>
+    <string name="message_paste3">Šāds fails jau eksistē, vai vēlaties to aizvietot?</string>
+    <string name="message_paste4">Lūdzu nokopējiet failus jau iepriekš</string>
+    <string name="message_no_file_selected">Fails nav izvēlēts, nav iespējams pabeigt darbību</string>
+    <string name="message_failure">Neizdevās</string>
+    <string name="message_confirm">Kinnitada kustutamine?</string>
+    <string name="message_scan">Skenē ...</string>
+    <string name="message_no_storage">Uzglabāšanas ierīce nav atrasta</string>
+    <string name="no_usb">Neviens</string>
+    <string name="paste_loading">Ielīmē... Lūdzu gaidiet ...</string>
+    <string name="not_paste">Nav iespējams šajā mapē iekpēt failus</string>
+    <string name="copy_file">副本</string>
+    <string name="space_not_enough">Nav pietiekošas brīvās vietas</string>
+    <string name="system_files">Sistēmas faili</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Kaikki</string>
+    <string name="format_filter_document">Dokumentit</string>
+    <string name="format_filter_picture">Kuvat</string>
+    <string name="format_filter_music">Äänet</string>
+    <string name="format_filter_video">Videot</string>
+    <string name="format_filter_wb">Valkotaulu</string>
+    <string name="audio">Äänet</string>
+    <string name="video">Videot</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Etsi</string>
+    <string name="search_result">Hakutulokset</string>
+    <string name="cancel">Peruuta</string>
+    <string name="copy">Kopioi</string>
+    <string name="paste">Liitä</string>
+    <string name="delete">Poista</string>
+    <string name="success">Poistaminen onnistui</string>
+    <string name="copy_to">Kopioi kohteeseen</string>
+    <string name="operation">Dokumenttitoiminnot</string>
+    <string name="select_all">Valitse kaikki</string>
+    <string name="folder_empty">Ei olemassa olevaa tiedostoa</string>
+    <string name="all">Kaikki</string>
+    <string name="message_exit">Poistu painamalla uudelleen</string>
+    <string name="message_no_permission">Valtuudet eivät riitä</string>
+    <string name="message_paste">Liittäminen onnistui</string>
+    <string name="message_paste2">Liitä tiedostot</string>
+    <string name="message_paste3">"Tämän niminen tiedosto on jo olemassa, haluatko korvata tiedoston?"</string>
+    <string name="message_paste4">Kopioi tiedostot etukäteen</string>
+    <string name="message_no_file_selected">Tiedostoa ei valittu, toimintoa ei voitu viedä loppuun</string>
+    <string name="message_failure">Virhe</string>
+    <string name="message_confirm">Vahvista poistaminen?</string>
+    <string name="message_scan">Skannataan...</string>
+    <string name="message_no_storage">Tallennusvälinettä ei löydy</string>
+    <string name="no_usb">Ei mitään</string>
+    <string name="paste_loading">Liitetään...odota...</string>
+    <string name="not_paste">Tiedostoja ei voitu kopioida nykyisessä kansiossa</string>
+    <string name="copy_file">Monista </string>
+    <string name="space_not_enough">Liian vähän levytilaa jäljellä</string>
+    <string name="system_files">Järjestelmätiedostot</string>
+</resources>

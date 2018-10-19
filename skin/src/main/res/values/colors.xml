@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="translate">#00000000</color>
+    <color name="half_translate">#08000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="file_path_bg">#00000000</color>
+    <!-- layout_file_main -->
+    <color name="delete_color">#f24949</color>
+    <color name="delete_border">#99f24949</color>
+    <color name="main_bg">#e8edf7</color>
+    <color name="files_border">#e3e5e6</color>
+    <color name="copy_color">#2d363b</color>
+    <color name="copy_border">#996c7680</color>
+    <color name="select_all_bg">#e4e8ed</color>
+    <color name="select_all_border">#dbdfe4</color>
+    <color name="file_name_color">#2b2f33</color>
+    <color name="file_date_color">#778089</color>
+    <color name="copy_to_color">#4db812</color>
+    <color name="copy_to_border">#cc4db812</color>
+    <!-- TopView -->
+    <color name="top_text_color">#4a4a4a</color>
+    <color name="operation_left">#e6ebf0</color>
+    <color name="operation_color">#4db812</color>
+
+
+    <color name="format_filter_bg">#fff5f7f7</color>
+    <color name="format_filter_text">#777777</color>
+    <color name="format_filter_text_hover">#1f1f1f</color>
+
+    <color name="grid_file_name">#2b2f33</color>
+
+    <!-- search -->
+    <color name="search_bar_text">#ff67717b</color>
+    <color name="search_bar_text_hover">#0c96f1</color>
+    <color name="search_input_border">#dae3eb</color>
+    <color name="search_cancel">#4db812</color>
+    <!-- btn  -->
+    <color name="btn_background_pressed">#666666</color>
+    <color name = "btn_background_normal">#dedede</color>
+    <!-- bottom -->
+    <color name="tv_list_grid">#777777</color>
+    <color name="tv_list_grid_hover">#0c96f1</color>
+</resources>

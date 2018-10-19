@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/layout_shadow_width"
+    android:layout_height="@dimen/layout_shadow_height"
+    android:tag="skin:user_difined_bac_selected_bac:background"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="42.6dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="13.4dp"
+        android:layout_marginLeft="29.4dp"
+        android:tag="skin:title_textcolor:textColor"
+        android:text="@string/user_difined_bac_selected"/>
+    <GridView
+        android:id="@+id/bac_addmore_gridview" 
+        android:layout_width="778.6dp"
+        android:numColumns="4"
+        android:overScrollMode="never"
+        android:layout_marginTop="20dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="326.6dp">
+    </GridView>
+    <RelativeLayout 
+        android:layout_width="778.6dp"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+         <TextView 
+            android:id="@+id/user_difined_bac_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:tag="skin:user_difined_bac_text_selector:textColor"
+            android:text="@android:string/ok"/>
+          <TextView 
+            android:id="@+id/user_difined_bac_cancel"
+            android:layout_toLeftOf="@id/user_difined_bac_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:tag="skin:user_difined_bac_text_selector:textColor"
+            android:layout_marginRight="32dp"
+            android:text="@android:string/cancel"/>
+    </RelativeLayout>
+    
+</LinearLayout>

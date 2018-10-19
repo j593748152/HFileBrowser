@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="format_filter_all">全部</string>
+    <string name="format_filter_document">文档</string>
+    <string name="format_filter_picture">图片</string>
+    <string name="format_filter_music">音/视频</string>
+    <string name="format_filter_video">视频</string>
+    <string name="format_filter_wb">白板</string>
+    <string name="audio">音频</string>
+    <string name="video">视频</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">搜索</string>
+    <string name="search_result">搜索结果</string>
+    <string name="delete">删除</string>
+    <string name="success">" 删除成功 "</string>
+    <string name="copy_to">复制到</string>
+    <string name="operation">文档操作</string>
+    <string name="folder_empty">暂无文件</string>
+    <string name="all">全部</string>
+    <string name="message_exit">再按一次退出</string>
+    <string name="message_no_permission">权限不足</string>
+    <string name="message_paste">粘贴成功</string>
+    <string name="message_paste2">粘贴文件</string>
+    <string name="message_paste3">"存在1个同名文件，是否覆盖？"</string>
+    <string name="message_paste_plural">"存在%d个同名文件，是否覆盖？"</string>
+    <string name="message_paste4">请先进行复制操作</string>
+    <string name="message_no_file_selected">未选择文件，无法完成操作</string>
+    <string name="message_failure">失败</string>
+    <string name="message_scan"> 扫描中.. </string>
+    <string name="message_no_storage"> 未找到存储设备. </string>
+    <string name="no_usb">无</string>
+    <string name="paste_loading">正在粘贴，请稍后...</string>
+    <string name="not_paste">当前文件夹内不能进行粘贴操作</string>
+    <string name="copy_file">副本</string>
+    <string name="space_not_enough">剩余空间不足</string>
+    <string name="system_files">系统文件</string>
+    <!-- 2017added -->
+    <string name="file_broawser">文件浏览</string>
+    <string name="delete_file_selected">确定删除所选文件吗？</string>
+    <string name="list">列表</string>
+    <string name="thumbnails">缩略图</string>
+    <string name="please_input_keyword">请输入关键字...</string>
+    
+    <string name="user_difined_bac_selected">选择图片</string>
+    <!--media-->
+    <string name="media_music_next">下一首</string>
+    <string name="media_music_pre">上一首</string>
+    <string name="media_play">播放</string>
+    <string name="media_pause">暂停</string>
+
+    <!--image loader-->
+    <string name="image_loader_rotate">旋转</string>
+    <string name="image_loader_exit">退出</string>
+    <string name="cancel">取消</string>
+
+</resources>

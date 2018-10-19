@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/iv_file_image_grid"
+            android:layout_width="56dp"
+            android:layout_height="68dp"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/iv_file_select_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/layout_grid_selected_marginRight"
+            android:layout_marginBottom="@dimen/layout_grid_selected_marginBottom"
+            android:src="@drawable/file_selected"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_file_name_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="@dimen/layout_grid_file_name_marginTop"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="@color/file_name_color"
+        android:textSize="@dimen/size_13px" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_list_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/layout_icon"
+        android:layout_width="@dimen/list_icon_width"
+        android:layout_height="@dimen/list_icon_width"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_26px"
+        android:layout_marginRight="@dimen/margin_15px" >
+
+        <ImageView
+            android:id="@+id/iv_file_icon"
+            android:layout_width="@dimen/list_icon_width"
+            android:layout_height="@dimen/list_icon_width"
+            android:layout_marginBottom="@dimen/layout_list_file_icon_marginBottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/iv_file_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/file_selected"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/layout_icon"
+        android:background="@drawable/list_view_divider"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_file_name"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/file_name_color"
+            android:textSize="@dimen/size_24px" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_file_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_50px"
+                android:layout_toLeftOf="@+id/tv_file_date"
+                android:textColor="@color/file_date_color"
+                android:textSize="@dimen/size_14px" />
+
+            <TextView
+                android:id="@+id/tv_file_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/layout_list_file_data_marginRight"
+                android:textColor="@color/file_date_color"
+                android:textSize="@dimen/size_14px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

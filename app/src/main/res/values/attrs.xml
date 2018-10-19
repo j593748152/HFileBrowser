@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CusImageButton">
+        <attr name="title" format="string"/>
+        <attr name="secondTitle" format="string"/>
+        <attr name="image" format="reference"/>
+        <attr name="textPaddingTop" format="dimension"/>
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+</resources>

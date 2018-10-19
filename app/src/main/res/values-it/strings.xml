@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Almacenamiento externo</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Tutti</string>
+    <string name="format_filter_document">Documenti</string>
+    <string name="format_filter_picture">Foto</string>
+    <string name="format_filter_music">Audio</string>
+    <string name="format_filter_video">Video</string>
+    <string name="format_filter_wb">Lavagna</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Ricerca</string>
+    <string name="search_result">Cerca risultati</string>
+    <string name="cancel">Cancella</string>
+    <string name="copy">Copia</string>
+    <string name="paste">Incolla</string>
+    <string name="delete">Elimina</string>
+    <string name="success">" Eliminazione eseguita con successo "</string>
+    <string name="copy_to">Funzionamento documento</string>
+    <string name="operation">Funzionamento documento</string>
+    <string name="select_all">Seleziona tutto</string>    
+    <string name="folder_empty">Nessun file esistente</string>
+   <string name="all">Tutto</string>
+    <string name="message_exit">Premi di nuovo per uscire</string>
+    <string name="message_no_permission">Autorizzazione insufficiente</string>
+    <string name="message_paste">Copia eseguita con successo</string>
+    <string name="message_paste2">Incolla file</string>
+    <string name="message_paste3">" Un file con lo stesso nome esiste già. Sostituire?"</string>
+    <string name="message_paste4">Effettuare una copia dei file</string>
+    <string name="message_no_file_selected">Nessun file selezionato. Impossibile completare l\'operazione</string>
+    <string name="message_failure">Operazione fallita</string>
+    <string name="message_confirm">Confermi cancellazione?</string>
+    <string name="message_scan"> Scansione…</string>
+    <string name="message_no_storage"> Dispositivo di memorizzazione non trovato. </string>
+    <string name="no_usb">Nessuno</string>
+    <string name="paste_loading">In copia…attendere…</string>
+    <string name="not_paste">Impossibile copiare i file nella cartella corrente</string>
+    <string name="copy_file">Duplicare</string>
+    <string name="space_not_enough">Spazio residuo non sufficiente</string>
+    <string name="system_files">File di sistema</string>
+</resources>

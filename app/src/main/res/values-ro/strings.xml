@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Toate</string>
+    <string name="format_filter_document">Documente</string>
+    <string name="format_filter_picture">Imagini</string>
+    <string name="format_filter_music">Audio</string>
+    <string name="format_filter_video">Video</string>
+    <string name="format_filter_wb">Video</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Căutare</string>
+    <string name="search_result">Rezultatele căutării</string>
+    <string name="cancel">Anulare</string>
+    <string name="copy">Copiere</string>
+    <string name="paste">Adăugare conţinut copiat</string>
+    <string name="delete">ştergere</string>
+    <string name="success">" ştergere reuşită "</string>
+    <string name="copy_to">Copiere la</string>
+    <string name="operation">Utilizarea documentului</string>
+    <string name="select_all">Selectarea tuturor</string>
+    <string name="folder_empty">Nu există niciun fişier</string>
+   <string name="all">Toate</string>
+    <string name="message_exit">Apăsaţi din nou pentru închidere</string>
+    <string name="message_no_permission">Nu aveţi autoritate</string>
+    <string name="message_paste">Adăugare conţinut reuşită</string>
+    <string name="message_paste2">Adăugare fişiere copiate</string>
+    <string name="message_paste3">Există deja un fişier cu acelaşi nume, doriţi să îl înlocuiţi?</string>
+    <string name="message_paste4">Vă rugăm să copiaţi fişierele în prealabil</string>
+    <string name="message_no_file_selected">Niciun fişier selectat, acţiunea nu poate fi finalizată</string>
+    <string name="message_failure">Eşuat</string>
+    <string name="message_confirm">Confirmaţi ştergerea?</string>
+    <string name="message_scan">Scanare...</string>
+    <string name="message_no_storage">Nu a fost identificat dispozitivul de stocare</string>
+    <string name="no_usb">Niciunul</string>
+    <string name="paste_loading">Adăugare conţinut... Vă rugăm să aşteptaţi...</string>
+    <string name="not_paste">Nu pot fi copiate fişiere în directorul curent</string>
+    <string name="copy_file">副本</string>
+    <string name="space_not_enough">Spaţiu rămas insuficient</string>
+    <string name="system_files">Fişiere sistem</string>
+</resources>

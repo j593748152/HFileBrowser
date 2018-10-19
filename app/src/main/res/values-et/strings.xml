@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Kõik</string>
+    <string name="format_filter_document">Dokumendid</string>
+    <string name="format_filter_picture">Pildid</string>
+    <string name="format_filter_music">Helifailid</string>
+    <string name="format_filter_video">Videod</string>
+    <string name="format_filter_wb">Valgetahvel</string>
+    <string name="audio">Helifailid</string>
+    <string name="video">Videod</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Otsing</string>
+    <string name="search_result">Otsingu tulemused</string>
+    <string name="cancel">Tühista</string>
+    <string name="copy">Kopeeri</string>
+    <string name="paste">Kleebi</string>
+    <string name="delete">Kustuta</string>
+    <string name="success">" Edukalt kustutatud "</string>
+    <string name="copy_to">Kopeeri asukohta</string>
+    <string name="operation">Dokumendi toimingud</string>
+    <string name="select_all">Vali kõik</string>
+    <string name="folder_empty">Faili ei eksisteeri</string>
+    <string name="all">Kõik</string>
+    <string name="message_exit">Väljumiseks vajuta uuesti</string>
+    <string name="message_no_permission">Ebapiisavad õigused</string>
+    <string name="message_paste">Kleebitud edukalt</string>
+    <string name="message_paste2">Kleebi failid</string>
+    <string name="message_paste3">Sama nimega fail juba eksisteerib, kas soovite selle asendada?</string>
+    <string name="message_paste4">Kopeeri failid eelnevalt</string>
+    <string name="message_no_file_selected">Не е избран файл, невъзможно е завършването на Ühtegi faili ei ole valitud,
+        operatsiooni ei ole võimalik lõpetada</string>
+    <string name="message_failure">Fail</string>
+    <string name="message_confirm">Kinnitada kustutamine?</string>
+    <string name="message_scan">Skaneerimine...</string>
+    <string name="message_no_storage">Salvestusseadet ei leitud</string>
+    <string name="no_usb">Puudub</string>
+    <string name="paste_loading">Kleebin.. palun oodake...</string>
+    <string name="not_paste">Antud kataloogi kopeerida ei ole võimalik</string>
+    <string name="copy_file">副本</string>
+    <string name="space_not_enough">Ebapiisav mälumaht</string>
+    <string name="system_files">Süsteemifailid</string>
+</resources>

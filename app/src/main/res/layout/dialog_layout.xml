@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/delete_dialog_width"
+    android:layout_height="@dimen/delete_dialog_height"
+    android:background="@drawable/delete_dialog_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/delete_dialog_message_marginLeft"
+        android:background="@color/transparent"
+        android:textColor="@color/delete_dialog_textcolor"
+        android:textSize="@dimen/delete_dialog_tv_size"
+        android:layout_marginTop="@dimen/delete_dialog_message_marginTop"
+        android:text="@string/delete_file_selected" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:layout_alignBaseline="@+id/btn_ok"
+        android:layout_alignBottom="@+id/btn_ok"
+        android:layout_alignRight="@+id/btn_ok"
+        android:layout_marginRight="@dimen/delete_dialog_cancel_marginRight"
+        android:textColor="@color/delete_dialog_textcolor"
+        android:textSize="@dimen/delete_dialog_tv_size"
+        android:gravity="center"
+        android:text="@android:string/cancel" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/delete_dialog_ok_marginBottom"
+        android:layout_marginRight="@dimen/delete_dialog_ok_marginRight"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:text="@android:string/ok"
+        android:textColor="@color/delete_dialog_textcolor"
+        android:textSize="@dimen/delete_dialog_tv_size" />
+
+</RelativeLayout>

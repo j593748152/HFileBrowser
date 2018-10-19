@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Alla</string>
+    <string name="format_filter_document">Dokument</string>
+    <string name="format_filter_picture">Bilder</string>
+    <string name="format_filter_music">Ljud</string>
+    <string name="format_filter_video">Video</string>
+    <string name="format_filter_wb">Whiteboard</string>
+    <string name="audio">Ljud</string>
+    <string name="video">Video</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Sök</string>
+    <string name="search_result">Sökresultat</string>
+    <string name="cancel">Avbryt</string>
+    <string name="copy">Kopiera</string>
+    <string name="paste">Klistra in</string>
+    <string name="delete">Radera</string>
+    <string name="success">Radering lyckades</string>
+    <string name="copy_to">Kopiera till</string>
+    <string name="operation">Dokumentåtgärd</string>
+    <string name="select_all">Välj alla</string>
+    <string name="folder_empty">Ingen existerande fil</string>
+   <string name="all">Alla</string>
+    <string name="message_exit">Tryck igen för att lämna</string>
+    <string name="message_no_permission">Ingen behörighet</string>
+    <string name="message_paste">Klistra in lyckades</string>
+    <string name="message_paste2">Klistra in lyckades</string>
+    <string name="message_paste3">En fil med samma namn finns redan, vill du ersätta den?</string>
+    <string name="message_paste4">Vänligen kopiera filerna i förväg</string>
+    <string name="message_no_file_selected">Ingen fil har valts, kan inte slutföra åtgärden</string>
+    <string name="message_failure">Fel</string>
+    <string name="message_confirm">Bekräfta radera?</string>
+    <string name="message_scan">Scannar…</string>
+    <string name="message_no_storage">Lagringsmediet kan inte hittas.</string>
+    <string name="no_usb">Ingen</string>
+    <string name="paste_loading">Klistrar in… vänta…</string>
+    <string name="not_paste">Kan inte kopiera filerna i den aktuella mappen</string>
+    <string name="copy_file">Skapa en kopia</string>
+    <string name="space_not_enough">För lite utrymme kvar</string>
+    <string name="system_files">Systemfiler</string>
+</resources>

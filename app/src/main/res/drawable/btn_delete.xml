@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/delete_border" />
+        </shape>
+    </item>
+    <item android:left="2dp" android:bottom="2dp" android:right="2dp" android:top="2dp">
+        <shape>
+            <solid android:color="@color/main_bg" />
+            <padding android:top="@dimen/btn_padding_top" android:right="@dimen/btn_padding_left"  android:bottom="@dimen/btn_padding_top"
+                     android:left="@dimen/btn_padding_left" />
+        </shape>
+    </item>
+</layer-list>

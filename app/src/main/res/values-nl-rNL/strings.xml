@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外部存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="format_filter_all">Alle</string>
+    <string name="format_filter_document">Documenten</string>
+    <string name="format_filter_picture">Afbeeldingen</string>
+    <string name="format_filter_music">Geluidsbestanden</string>
+    <string name="format_filter_video">Video´s</string>
+    <string name="format_filter_wb">Whiteboard</string>
+    <string name="audio">Geluidsbestanden</string>
+    <string name="video">Video´s</string>
+    <string name="word">DOC</string>
+    <string name="excel">XLS</string>
+    <string name="ppt">PPT</string>
+    <string name="pdf">PDF</string>
+    <string name="search">Zoeken</string>
+    <string name="search_result">Zoekresultaten</string>
+    <string name="cancel">Annuleer</string>
+    <string name="copy">Kopiëren</string>
+    <string name="paste">Plakken</string>
+    <string name="delete">Verwijder</string>
+    <string name="success">Met succes verwijderen</string>
+    <string name="copy_to">Kopiëren naar</string>
+    <string name="operation">Document operatie</string>
+    <string name="select_all">Selecteer alles</string>
+    <string name="folder_empty">Geen bestaand bestand</string>
+   <string name="all">Alle</string>
+    <string name="message_exit">Druk nogmaals om af te sluiten</string>
+    <string name="message_no_permission">Onvoldoende bevoegdheid</string>
+    <string name="message_paste">Succesvol plakken</string>
+    <string name="message_paste2">Bestanden plakken</string>
+    <string name="message_paste3">Een bestand met dezelfde naam bestaat al, wilt u deze vervangen?</string>
+    <string name="message_paste4">Gelieve bestanden van tevoren te kopiëren </string>
+    <string name="message_no_file_selected">Geen bestand geselecteerd, niet in staat om operatie te voltooien </string>
+    <string name="message_failure">Mislukt</string>
+    <string name="message_confirm">Bevestig verwijdering?</string>
+    <string name="message_scan">Aan het scannen...</string>
+    <string name="message_no_storage">Opslagapparaat niet gevonden</string>
+    <string name="no_usb">Geen</string>
+    <string name="paste_loading">Bezig met plakken... even geduld aub...</string>
+    <string name="not_paste">Niet in staat om bestanden in de huidige map te kopiëren </string>
+    <string name="copy_file">Duplicaat</string>
+    <string name="space_not_enough">Onvoldoende resterende ruimte</string>
+    <string name="system_files">Systeembestanden</string>
+</resources>
